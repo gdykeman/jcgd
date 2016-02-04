@@ -10,6 +10,7 @@ Management - vlan 150 - 192.168.150.0/24
 
 1. Edit /etc/rhsm.conf -> add proxy
 2. Subscription-manager register --username <username> --password <password> --auto-attach
+
 3.
 subscription-manager repos --disable=*
 subscription-manager repos --enable=rhel-7-server-rpms
